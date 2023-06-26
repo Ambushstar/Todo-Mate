@@ -1,0 +1,10 @@
+.fetchCard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 3rem;
+    column-gap: 4rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    width: 187%;
+}

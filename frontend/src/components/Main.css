@@ -1,0 +1,6 @@
+.task-manager{
+    display: flex;
+}
+.task-list-section{
+    margin-left: 3rem;
+}

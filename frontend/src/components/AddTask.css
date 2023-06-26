@@ -1,0 +1,107 @@
+.taskform {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 80vh;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #2d2d2d;
+  color: #e8e6e1;
+  padding: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 16px;
+}
+.add-task-section{
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.taskname,
+.taskcategory,
+.taskdesc,
+.taskbtn {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.taskname span,
+.taskcategory span,
+.taskdesc span {
+  margin-bottom: 5px;
+  align-self: flex-start;
+  margin-left: 0px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 5px;
+  background-color: #414141;
+  border: none;
+  padding: .8rem;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #e8e6e1;
+  font-family: 'Lato', sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.taskbtn button {
+  padding: 10px;
+  width: 100%;
+  background-color: #C294FE;
+  align-self: flex-start;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  transition-duration: 400ms;
+  margin-top: 2.6rem;
+}
+
+#addtaskbtn:hover{
+  cursor: pointer;
+  background-color: #975ce3;
+  transition-duration: 400ms;
+}
+
+select {
+  height: 44px; /* Set the same height as the input */
+}
+
+select option {
+  background-color: #414141;
+  color: #e8e6e1;
+  font-family: 'Lato', sans-serif;
+  /* font-size: 16px;
+  padding: 0.8rem; 
+  line-height: 1.6; */
+}
+
+textarea{
+  background-color: #414141;
+  border: none;
+  border-radius: 8px;
+  resize: none;
+  color: #e8e6e1;
+  font-size: 16px;
+  border: none;
+  padding: 0.8rem;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}

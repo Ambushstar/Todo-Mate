@@ -1,0 +1,34 @@
+.card{
+    background-color: #414141;
+    width: 308px;
+    height: 208px;
+    border-radius: 16px;
+    padding: .6rem;
+    color: #e8e6e1;
+}
+
+.card h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 1rem;
+}
+
+.card p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+.cardbtn{
+    background-color: #414141;
+    border: none;
+    border-radius: 10rem;
+    border: 1px solid #FF9264;
+    padding: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #FF9264;
+    font-family: 'Lato', sans-serif;
+    margin-top: .5rem;
+}
